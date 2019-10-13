@@ -57,7 +57,6 @@ class PunkBeerListViewController: UIViewController, UITableViewDataSource {
          presentNewNotebookAlert()
     }
     
-    /// `addNotebook(name:)`.
     func presentNewNotebookAlert() {
         let alert = UIAlertController(title: "PunkBeers Note", message: "Enter the name of your favourite beer", preferredStyle: .alert)
 
